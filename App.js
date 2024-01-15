@@ -8,7 +8,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 import HomeScreen from './screens/HomeScreen'
 import Assignment01 from './screens/Assignment01'
 import Assignment02 from './screens/Assignment02'
-import Assignment03 from './screens/Assignment03'
+// import Assignment03 from './screens/Assignment03'
 
 const Stack = createStackNavigator()
 
@@ -19,7 +19,7 @@ const App = () => {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Assignment01" component={Assignment01} />
         <Stack.Screen name="Assignment02" component={Assignment02} />
-        <Stack.Screen name="Assignment03" component={Assignment03} />
+        {/*<Stack.Screen name="Assignment03" component={Assignment03} />*/}
       </Stack.Navigator>
     </NavigationContainer>
   )
